@@ -7,9 +7,9 @@ pipeline
         stage('Build') { 
             steps { 
                echo 'This is a minimal pipeline.' 
-            }
+                  }
         
-    }
+                           }
     
       stage('Compile Stage')
       {
@@ -41,5 +41,5 @@ pipeline
     
    }
 
-}
+
 
